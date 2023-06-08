@@ -81,7 +81,7 @@ axios: Promise based HTTP client for the browser and node.js.
 socket.io-client: The client-side library for WebSocket.
 👤 Author
 
-👤 Mehyar Swelim
+👤 Mehyar Swelim (mehyar500)
 
 📝 License
 
