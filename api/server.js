@@ -10,7 +10,6 @@ const routes = require('./routes');
 const http = require('http');
 const { Server } = require('socket.io');
 const { setupChatNamespace } = require('./socketRoutes');
-const { ChatSession } = require('./models/ChatSession');
 
 dotenv.config();
 
@@ -44,7 +43,7 @@ async function startServer() {
       },
     }));
     app.use(cookieSession({
-      name: 'moodfood-session',
+      name: 'moodfood-api-session',
       keys: [process.env.COOKIE_KEY],
       maxAge: 24 * 60 * 60 * 1000, // 24 hours
     }));

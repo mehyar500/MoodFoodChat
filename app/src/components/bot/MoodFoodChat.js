@@ -22,7 +22,6 @@ import UpgradeButton from '../common/UpgradeButton';
 import { useTheme } from '@mui/material/styles';
 import PreviewImage from "../common/PreviewImage";
 import RecipeRec from "../common/RecipeRec";
-import AdSpace from "../common/AdSpace";
 
 const ChatContainer = styled(Paper)(({ theme }) => ({
     height: "80vh",
@@ -362,7 +361,6 @@ const MoodFoodChat = () => {
                         </div>
                     )}
                 </ChatContainer>
-                <AdSpace /> 
                 <Grid container alignItems="center" spacing={1} sx={{ marginTop: "8px" }}>
                     <Grid item xs>
                         <Box display="flex" alignItems="center">

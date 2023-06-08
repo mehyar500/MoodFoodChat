@@ -22,7 +22,7 @@ const sendMailjetEmail = async (recipient, subject, body) => {
   const request = mailjet.post('send', { version: 'v3.1' }).request({
     Messages: [
       {
-        From: { Email: 'noreply@jet.moodfood.app', Name: 'MoodFood' },
+        From: { Email: 'noreply@example.com', Name: 'MoodFoodChat' },
         To: [{ Email: recipient }],
         Subject: subject,
         TextPart: body.replace(/<[^>]*>?/gm, ''), 
@@ -58,10 +58,6 @@ exports.signup = async (req, res) => {
       <div style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; color: #333;">
         <p>Dear ${firstName},</p>
         <p>Thank you for signing up for MoodFood's newsletter! As your GPT4 AI-Powered Personal Cooking Assistant, we're excited to revolutionize your cooking experience. MoodFood streamlines meal planning, inspires culinary creativity, and enhances your dining experience through a suite of powerful features.</p>
-        <p><strong>Embrace the future of food and cooking.</strong> Together, we can revolutionize the way we perceive and consume food in our daily lives. Stay tuned for personalized meal suggestions, creative recipe inspirations, mood-based dining experiences, effortless ingredient identification, and real-time cooking assistance!</p>
-        <p>Start your journey with MoodFood today and transform your cooking experience.</p>
-        <p style="margin-bottom: 0;">Warm regards,</p>
-        <p style="margin-top: 0;">The MoodFood Team</p>
       </div>
     `;
 
@@ -92,7 +88,7 @@ const sendSESEmail = async (recipient, subject, body) => {
   const ses = new aws.SES({ apiVersion: '2010-12-01' });
 
   const params = {
-    Source: 'noreply@moodfood.app',
+    Source: 'noreply@example.com',
     Destination: {
       ToAddresses: [recipient],
     },
@@ -121,7 +117,7 @@ exports.sendContactEmail = async (req, res) => {
   const { name, email, message } = req.body;
 
   try {
-    await sendSESEmail('mrswelim@gmail.com', 'Contact Form Submission', `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+    await sendSESEmail('example@example.com', 'Contact Form Submission', `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
     res.status(200).send({ message: 'Email sent successfully.' });
   } catch (error) {
     console.error('Error sending email:', error);

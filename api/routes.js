@@ -6,10 +6,6 @@ const requireAuth = require('./middlewares/requireAuth');
 const stripeController = require('./controllers/stripeController');
 const messageController = require('./controllers/messageController');
 const recipeController = require('./controllers/recipeController');
-const offerController = require('./controllers/offerController');
-
-// Offer routes
-router.get('/offers', offerController.getOffers);
 
 // Google OAuth routes
 router.get('/auth/google', authController.googleSignup);
