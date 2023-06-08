@@ -1,0 +1,6 @@
+
+            Main text Font: Flamenco
+            Slogan Text Font: Jaldi
+            COLOR RGBA: rgba(131, 87, 143, 1.0)
+            COLOR HEX: #83578f
+            
