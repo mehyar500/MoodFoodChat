@@ -27,10 +27,7 @@ async function startServer() {
 
     const allowedOrigins = [
       `${process.env.FRONTEND_BASE_URL}`,
-      `${process.env.BACKEND_BASE_URL}`,
-      'https://www.moodfood.app',
-      'https://moodfood.app',
-      'https://api.moodfood.app',
+      `${process.env.BACKEND_BASE_URL}`
     ];
 
     const app = express();
