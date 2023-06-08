@@ -1,7 +1,15 @@
+<div align="center">
 🍔 MoodFoodChat
 
-MoodFood is an AI-driven food app powered by GPT4 technology designed to revolutionize your cooking experience. Our powerful features streamline meal planning, inspire culinary creativity, and enhance your dining experience. Discover the future of food with MoodFood and join our growing community.
+MoodFood is an AI-driven food app powered by GPT4 technology designed to revolutionize your cooking experience.
 
+forthebadge
+
+🔴 Live demo here
+
+Our powerful features streamline meal planning, inspire culinary creativity, and enhance your dining experience. Discover the future of food with MoodFood and join our growing community.
+
+</div>
 🚀 Getting Started
 
 This guide will walk you through the steps to set up the project locally.
@@ -55,13 +63,9 @@ npm install
 npm start
 The application will start on port 3000. Open your web browser and navigate to http://localhost:3000 to view the application.
 
-🌐 Live Demo
-
-You can also view a live demo of the MoodFood application at https://moodfood.app.
-
 📦 Packages
 
-Our application uses a number of packages to work properly. Here is a summary of the key packages we use:
+Our application uses a number of packages to work properly. Here's a list of some key packages we use:
 
 Backend
 @aws-sdk/client-dynamodb: AWS SDK for JavaScript, for interacting with Amazon DynamoDB.
@@ -76,12 +80,13 @@ axios: Promise based HTTP client for the browser and node.js.
 socket.io-client: The client-side library for WebSocket.
 👤 Author
 
-Mehyar Swelim
+👤 Mehyar Swelim
 
 📝 License
 
-This project is ISC licensed.
+This project is under the ISC license.
 
-Show your support
+🤝 Show Your Support
 
 Give a ⭐️ if you like this project!
+
