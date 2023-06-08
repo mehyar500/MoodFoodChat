@@ -147,12 +147,33 @@ Our application uses a number of packages to work properly. Here's a list of som
 * [winston](https://www.npmjs.com/package/winston): A logger for just about everything.
 
 
-### **Frontend**
+### Frontend
 
-* [react](https://www.npmjs.com/package/react): A JavaScript library for building user interfaces.
 * [@emotion/react](https://www.npmjs.com/package/@emotion/react): A library designed for writing css styles with JavaScript.
+* [@emotion/styled](https://www.npmjs.com/package/@emotion/styled): CSS-in-JS library designed for styling React component systems.
+* [@mui/icons-material](https://www.npmjs.com/package/@mui/icons-material): This package provides the Google Material icons packaged as a set of React components.
+* [@mui/lab](https://www.npmjs.com/package/@mui/lab): This package hosts the incubator components which are in research and development phase.
+* [@mui/material](https://www.npmjs.com/package/@mui/material): React components that implement Google's Material Design.
+* [@stripe/react-stripe-js](https://www.npmjs.com/package/@stripe/react-stripe-js): Stripe.js and Elements for React applications.
+* [@stripe/stripe-js](https://www.npmjs.com/package/@stripe/stripe-js): The official Stripe.js library.
+* [@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom): Custom jest matchers to test the state of the DOM.
+* [@testing-library/react](https://www.npmjs.com/package/@testing-library/react): Simple and complete React DOM testing utilities that encourage good testing practices.
+* [@testing-library/user-event](https://www.npmjs.com/package/@testing-library/user-event): Simulate user events for react-testing-library.
 * [axios](https://www.npmjs.com/package/axios): Promise based HTTP client for the browser and node.js.
-* [socket.io-client](https://www.npmjs.com/package/socket.io-client): The client-side library for WebSocket.
+* [dotenv](https://www.npmjs.com/package/dotenv): Loads environment variables from .env for nodejs projects.
+* [install](https://www.npmjs.com/package/install): Minimal JavaScript module loader.
+* [js-cookie](https://www.npmjs.com/package/js-cookie): A simple, lightweight JavaScript API for handling cookies.
+* [lodash](https://www.npmjs.com/package/lodash): A modern JavaScript utility library delivering modularity, performance & extras.
+* [npm](https://www.npmjs.com/package/npm): Package manager for JavaScript and the world’s largest software registry.
+* [public-ip](https://www.npmjs.com/package/public-ip): Get your public IP address.
+* [react](https://www.npmjs.com/package/react): A declarative, efficient, and flexible JavaScript library for building user interfaces.
+* [react-dom](https://www.npmjs.com/package/react-dom): Serves as the entry point to the DOM and server renderers for React.
+* [react-helmet](https://www.npmjs.com/package/react-helmet): A document head manager for React.
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom): DOM bindings for React Router.
+* [react-scripts](https://www.npmjs.com/package/react-scripts): Scripts and configuration used by Create React App.
+* [react-speech-recognition](https://www.npmjs.com/package/react-speech-recognition): A React hook that converts speech from the microphone to text.
+* [socket.io-client](https://www.npmjs.com/package/socket.io-client): The client-side library for Socket.IO.
+* [web-vitals](https://www.npmjs.com/package/web-vitals): A tiny, modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools.
 
 
 ## **👤 Author**
